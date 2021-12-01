@@ -1,28 +1,28 @@
 absl-py==1.0.0
-alabaster alabaster
+alabaster 
 alembic==1.4.1
 anaconda-client==1.7.2
 anaconda-navigator==2.1.1
-anaconda-project anaconda-project
+anaconda-project
 anyio
 appdirs==1.4.4
 argh==0.26.2
 argon2-cffi
-asn1crypto asn1crypto
+asn1crypto
 astroid 
 astropy 
-async-generator async_generator
+async-generator 
 atomicwrites==1.4.0
 attrs
 autopep8 
 Babel 
 backcall 
-backports.functools-lru-cache backports.functools_lru_cache
-backports.shutil-get-terminal-size 80754af9/backports.shutil_get_terminal_size
-backports.tempfile backports.tempfile
+backports.functools-lru-cache 
+backports.shutil-get-terminal-size 
+backports.tempfile 
 backports.weakref==1.0.post1
 bcrypt 
-beautifulsoup4 beautifulsoup4_1610988766420/work
+beautifulsoup4 
 bitarray 
 bkcharts==0.2
 black==19.10b0
@@ -39,17 +39,17 @@ certifi==2020.12.5
 cffi 
 chardet 
 click 
-cloudpickle cloudpickle
+cloudpickle 
 clyent==1.2.2
 colorama 
 colorlover==0.3.0
 comtypes==1.1.9
 conda==4.10.3
 conda-build==3.21.4
-conda-content-trust conda-content-trust
-conda-package-handling conda-package-handling
-conda-repo-cli conda-repo-cli
-conda-token conda-token
+conda-content-trust 
+conda-package-handling 
+conda-repo-cli 
+conda-token 
 conda-verify==3.4.2
 contextlib2==0.6.0.post1
 cryptography 
