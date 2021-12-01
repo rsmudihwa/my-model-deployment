@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Player overall prediction app</title>
+</head>
+<body>
+	<div class = "login">
+		<h1> Predict overall score</h1>
+
+	<form action ="{{url_for('predict')}}"method="post">
+		<input type='number'name="movement_reaction" placeholder="movement_reaction" required="required"/>
+		<br>
+		<input type='number'name="mentality_ composure" placeholder="mentality_composure" required="required"/>
+		<br>
+		<input type='number'name="power_shot_power" placeholder="power_shot_power" required="required"/>
+		<br>
+		<input type='number'name="mentality_vision" placeholder="mentality_vision" required="required"/>
+		<br>
+		<input type='number'name="attacking_short_passing" placeholder="attacking_short_passing" required="required"/>
+		<br>
+		<input type='number'name="value_eur" placeholder="value_eur" required="required"/>
+		<br>
+		<input type='number'name="skill_ball_control" placeholder="skill_ball_control" required="required"/>
+		<br>
+		<input type='number'name="power_long_shots" placeholder="power_long_shots" required="required"/>
+		<br>
+		<input type='number'name="age" placeholder="age" required="required"/>
+		<br>
+		<input type='number'name="movement_acceleration" placeholder="movement_acceleration" required="required"/>
+		<br>
+		<input type='number'name="potential" placeholder="potential" required="required"/>
+		<br>
+		<input type='number'name="skill_long_passing" placeholder="skill_long_passing" required="required"/>
+		<br>
+		<input type='number'name="skill_curve" placeholder="skill_curve" required="required"/>
+		<br>
+		
+
+	<button type ="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+</form>
+
+<br>
+<br>
+{{ prediction_text}}
+
+</div>
+		
+
+
+
+</body>
+</html>
